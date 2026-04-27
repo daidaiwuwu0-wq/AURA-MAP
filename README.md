@@ -1,12 +1,14 @@
 <a id="readme-top"></a>
 
+![Banner](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,2,5,30&height=180&text=AURA%20MAP&fontColor=ffffff&fontSize=52&desc=工业门禁可视化管理系统&descSize=20&descAlignY=75)
+
 <div align="center">
 
-[![HTML][html-shield]][html-url]
-[![JavaScript][js-shield]][js-url]
-[![SVG][svg-shield]][svg-url]
-[![AI协作][ai-shield]][ai-url]
-[![GitHub Pages][pages-shield]][pages-url]
+![HTML](https://img.shields.io/badge/HTML-单文件应用-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-原生无框架-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![SVG](https://img.shields.io/badge/SVG-矢量底图-FFB13B?style=for-the-badge&logo=svg&logoColor=white)
+![AI协作](https://img.shields.io/badge/开发方式-AI协作编程-8A2BE2?style=for-the-badge&logo=anthropic&logoColor=white)
+![GitHub Pages](https://img.shields.io/badge/部署-GitHub_Pages-222222?style=for-the-badge&logo=githubpages&logoColor=white)
 
 </div>
 
@@ -19,7 +21,7 @@
     由业务人员主导 · AI 协作开发 · 零代码基础完成
   </p>
   <p>
-    <a href="https://daidaimoon.github.io/AURA-MAP/"><strong>🌐 在线体验 Demo »</strong></a>
+    <a href="https://daidaimoon.github.io/AURA-MAP/index.html"><strong>🌐 在线体验 Demo »</strong></a>
     &nbsp;·&nbsp;
     <a href="https://github.com/daidaimoon/AURA-MAP/issues">报告问题</a>
     &nbsp;·&nbsp;
@@ -97,7 +99,7 @@
 | 🔍 **门禁代码搜索** | 输入即搜索，结果下拉展示，点击直接定位 |
 | 🔎 **权限组批量筛选** | 下拉选择，地图与列表同步高亮 |
 | 📸 **照片管理** | 每个门禁上传现场照片，IndexedDB 存储，支持 100 张以上 |
-| 💬 **信息气泡** | 悬浮门禁弹出照片气泡，离开立即消失 |
+| 💬 **信息气泡** | 悬浮门禁弹出照片预览，离开立即消失 |
 | 📤 **只读版导出** | 导出含照片的独立 HTML，同事直接浏览无法编辑 |
 | 📊 **CSV 导出** | 一键导出全字段结构化数据 |
 | 🧭 **可编辑指南针** | 自定义方向标注，支持锁定 |
@@ -117,7 +119,7 @@
 |------|------|----------|
 | **原生 HTML/CSS/JS** | 整体结构与交互 | 零依赖，任意浏览器直接打开 |
 | **SVG** | 矢量底图渲染 | 无限缩放不失真，源自 CAD 导出 |
-| **IndexedDB** | 照片持久化存储 | 支持 Blob 存储，解决 base64 溢出问题 |
+| **IndexedDB** | 照片持久化存储 | 支持 Blob 存储，彻底解决 base64 溢出问题 |
 | **localStorage** | 门禁基本信息 | 轻量即时，无感知保存 |
 
 **开发方式：AI 协作编程（Vibe Coding）**
@@ -164,7 +166,7 @@
 
 **② 照片存储方案升级**
 
-初版将照片以 base64 存入 localStorage，在 100 张照片的实际场景下必然溢出崩溃。经过方案评估，改用 **IndexedDB 存储原始 Blob**，理论容量提升至 GB 级，彻底解决大批量照片存储问题。
+初版将照片以 base64 存入 localStorage，在 100 张照片的实际场景下必然溢出崩溃。改用 **IndexedDB 存储原始 Blob**，理论容量提升至 GB 级，彻底解决大批量照片存储问题。
 
 **③ 只读版嵌入式导出**
 
@@ -187,7 +189,7 @@
 
 ## 🙋 关于这个项目
 
-我在制造业从事行政/安保管理工作，长期被工厂门禁信息管理的低效困扰。  
+我在制造业从事行政/安保管理工作，长期被工厂门禁信息管理的低效困扰。
 这个项目是我第一次尝试用 AI 协作编程解决真实工作痛点的完整实践记录。
 
 **我没有任何编程背景**，但我负责了全部的产品决策：
@@ -201,24 +203,8 @@
 
 ---
 
-[![GitHub][github-shield]][github-url]
+![GitHub](https://img.shields.io/badge/GitHub-daidaimoon-181717?style=for-the-badge&logo=github&logoColor=white)
 
 项目地址：[https://github.com/daidaimoon/AURA-MAP](https://github.com/daidaimoon/AURA-MAP)
 
 <p align="right">(<a href="#readme-top">↑ 返回顶部</a>)</p>
-
----
-
-<!-- 徽章链接 -->
-[html-shield]: https://img.shields.io/badge/HTML-单文件应用-E34F26?style=for-the-badge&logo=html5&logoColor=white
-[html-url]: https://github.com/daidaimoon/AURA-MAP
-[js-shield]: https://img.shields.io/badge/JavaScript-原生无框架-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black
-[js-url]: https://github.com/daidaimoon/AURA-MAP
-[svg-shield]: https://img.shields.io/badge/SVG-矢量底图-FFB13B?style=for-the-badge&logo=svg&logoColor=white
-[svg-url]: https://github.com/daidaimoon/AURA-MAP
-[ai-shield]: https://img.shields.io/badge/开发方式-AI协作编程-8A2BE2?style=for-the-badge&logo=anthropic&logoColor=white
-[ai-url]: https://github.com/daidaimoon/AURA-MAP
-[pages-shield]: https://img.shields.io/badge/部署-GitHub_Pages-222222?style=for-the-badge&logo=githubpages&logoColor=white
-[pages-url]: https://daidaimoon.github.io/AURA-MAP/
-[github-shield]: https://img.shields.io/badge/GitHub-daidaimoon-181717?style=for-the-badge&logo=github&logoColor=white
-[github-url]: https://github.com/daidaimoon
